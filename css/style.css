@@ -12,6 +12,10 @@ a {
     transition: all .3s;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a:hover,
 a:active,
 a:focus {
@@ -274,7 +278,6 @@ a:focus {
         padding: 15px;
     }
 }
-
 
 /**********************************/
 /******** Back to Top CSS *********/
